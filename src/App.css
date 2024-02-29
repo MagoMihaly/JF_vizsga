@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.underlined {
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(0.25turn, rgb(34, 255, 86), rgb(0, 255, 157), rgba(80, 7, 215, 0));
+    border-image-slice: 1;
+    width:100%;
+    font-family: monospace;
+}
